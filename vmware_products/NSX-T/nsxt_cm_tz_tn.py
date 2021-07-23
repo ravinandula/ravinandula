@@ -15,7 +15,7 @@ parser.add_argument("--nsxtPassword", help="Provide the NSXT Password ", require
 parser.add_argument("--vcThumprint", help="Provide the VC thumbprint ", required=True)
 parser.add_argument("--vcUsername", help="Provide the VC SSO Username ", required=True)
 parser.add_argument("--vcPassword", help="Provide the VC SSO Password ", required=True)
-parser.add_argument("--transportZoneName", help="Provide the VC Port ", default="ravi-tz1", required=False)
+parser.add_argument("--transportZoneName", help="Provide the TransportZone Name ", default="ravi-tz1", required=False)
 
 args = parser.parse_args()
 
