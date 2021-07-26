@@ -1,9 +1,9 @@
 # This script is created by Ravi Nandula - https://github.com/ravinandula/ravinandula
 # Get the vCenter server thumbprint using the below script
 
-import sys, os, time
-import requests, urllib3
-requests.packages.urllib3.disable_warnings()
+import subprocess
+import json, sys, time
+import paramiko
 
 
 parser = argparse.ArgumentParser("This script Get the vCenter Server Thumbprint")
