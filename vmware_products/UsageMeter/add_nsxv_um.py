@@ -17,6 +17,7 @@ parser.add_argument("--vc-password", help="Provide VC root password", required=T
 parser.add_argument("--um-ip", help="Provide UM IP", required=True)
 parser.add_argument("--um-password", help="Provide UM admin password", required=True)
 parser.add_argument("--nsxv-ip", help="Provide NSXV IP Address", required=True)
+parser.add_argument("--nsxv-password", help="Provide NSXV admin password", required=True)
 
 args = parser.parse_args()
 
