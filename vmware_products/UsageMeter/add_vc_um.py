@@ -1,5 +1,5 @@
 # This script is created by Ravi Nandula - https://github.com/ravinandula/ravinandula
-# Using this script you can add vCenter server to Usagemeter 4.3/4.4
+# Using this script you can add vCenter server to Usagemeter 4.3/4.4/9.0
 
 
 import sys, os, time
